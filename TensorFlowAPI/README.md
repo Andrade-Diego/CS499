@@ -9,7 +9,7 @@ Since the tensorflow API is too large to properly push to this directory, I have
 Loose Instructions: https://www.geeksforgeeks.org/ml-training-image-classifier-using-tensorflow-object-detection-api/
 * These are loose instructions that my own instructions will be slightly based on. Please only refer to these if my instructions are unclear at any point
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. .
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Prerequisites
 
@@ -61,7 +61,7 @@ Will add when relevant.
 
 ## Authors
 
-* **Alex Schuster** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Alex Schuster** 
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
