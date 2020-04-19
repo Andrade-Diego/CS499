@@ -9,14 +9,15 @@ Since the tensorflow API is too large to properly push to this directory, I have
 Loose Instructions: https://www.geeksforgeeks.org/ml-training-image-classifier-using-tensorflow-object-detection-api/
 * These are loose instructions that my own instructions will be slightly based on. Please only refer to these if my instructions are unclear at any point
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. .
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+What things you need to install the software
 
 ```
 Pip version 19.0.0 or newer
+Python 3.x (3.7.4 in my case)
 A clone of my modification of the object detection API at: Tensorflow Object Detection API(v1.13.0)(https://github.com/apschuster/models/tree/r1.13.0)
 pip install tensorflow==1.15.0
 pip install protobuf
@@ -33,10 +34,10 @@ pip install opencv-python
 
 A step by step series of examples that tell you how to get a development env running
 
-Say what the step will be
-
+If not already installed, install python 3 (3.7.4) and pip (19.0.0 or newer) on your system, links/instructions are provided below.
 ```
-Give the example
+https://www.python.org/downloads/release/python-374/
+https://pip.pypa.io/en/stable/installing/
 ```
 
 And repeat
@@ -50,20 +51,13 @@ End with an example of getting some data out of the system or using it for a lit
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+Will add when relevant.
 
 ## Built With
 
 * [Tensorflow (v1.15.0)](https://www.tensorflow.org/versions/r1.15/api_docs/python/tf) - ML Library used
 * [Tensorflow Object Detection API(v1.13.0)](https://github.com/apschuster/models/tree/r1.13.0) - Object Detection API
 
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
 
