@@ -1,6 +1,7 @@
-# TensorFlow API
+# TensorFlow API- Detecting Parking Lot Spaces Occupied/Empty
 
-Since the tensorflow API is too large to properly push to this directory, I have forked my modifications to the repository shown below labeled besides "Reference", all instructions going forward should clone that repository.
+Since the tensorflow API is too large to properly push to this directory, I have forked my modifications to the repository shown below.
+* [Tensorflow Object Detection API(v1.13.0)](https://github.com/apschuster/models/tree/r1.13.0) - Object Detection API
 
 
 ## Getting Started
@@ -15,7 +16,17 @@ These instructions will get you a copy of the project up and running on your loc
 What things you need to install the software and how to install them
 
 ```
-Give examples
+Pip version 19.0.0 or newer
+A clone of my modification of the object detection API at: Tensorflow Object Detection API(v1.13.0)(https://github.com/apschuster/models/tree/r1.13.0)
+pip install tensorflow==1.15.0
+pip install protobuf
+pip install pillow
+pip install lxml
+pip install Cython
+pip install matplotlib
+pip install pandas
+pip install opencv-python 
+
 ```
 
 ### Installing
@@ -36,25 +47,6 @@ until finished
 
 End with an example of getting some data out of the system or using it for a little demo
 
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
 
 ## Deployment
 
