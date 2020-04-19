@@ -2,6 +2,7 @@
 
 Since the tensorflow API is too large to properly push to this directory, I have forked my modifications to the repository shown below.
 * [Tensorflow Object Detection API(v1.13.0)](https://github.com/apschuster/models/tree/r1.13.0) - Object Detection API
+* WARNING: At the moment, this will only work out of the box for windows users. The paths have not been made in a way that mac/linux users can run this without changing from '\\' to '/'
 
 
 ## Getting Started
