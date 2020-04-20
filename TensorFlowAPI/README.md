@@ -15,6 +15,7 @@ The instructions below will get you a copy of the project up and running on your
 
 ### System Requirements
 * Windows 10, 64 bit
+* Can work on Mac/Linux, but must change hard coded paths to use '/' instead of '\\' that it is currently using.
 
 ### Prerequisites
 
