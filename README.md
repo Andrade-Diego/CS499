@@ -4,9 +4,10 @@ Senior design project
 Team F: Parking Lot Availability at Marksbury Lot
 
 ## IOSParkingApp
-* Directory for the IOS parking application.
+* Directory for the IOS parking application, as well as instructions to set it up.
 
-## ParkingAPP
-* Directory for the Android parking application.
+## ParkinAPP
+* Directory for the Android parking application, as well as instructions to set it up.
 
-## TensorFlow API
+## TensorFlowAPI
+* Directory for the Tensorflow API, as well as instructions to set it up.
