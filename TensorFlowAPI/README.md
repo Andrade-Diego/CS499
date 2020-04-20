@@ -1,4 +1,5 @@
 # TensorFlow API- Detecting Parking Lot Spaces Occupied/Empty
+This README include directions on how to setup a working version of the tensorflow API for our specific parking lot detection project
 
 Since the tensorflow API is too large to properly push to this directory, I have forked my modifications to the repository shown below.
 * [Tensorflow Object Detection API(v1.13.0)](https://github.com/apschuster/models/tree/r1.13.0) - Object Detection API
@@ -10,7 +11,7 @@ Since the tensorflow API is too large to properly push to this directory, I have
 Loose Instructions: https://www.geeksforgeeks.org/ml-training-image-classifier-using-tensorflow-object-detection-api/
 * These are loose instructions that my own instructions will be slightly based on. Please only refer to these if my instructions are unclear at any point
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+The instructions below will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Prerequisites
 
@@ -41,10 +42,23 @@ https://www.python.org/downloads/release/python-374/
 https://pip.pypa.io/en/stable/installing/
 ```
 
-And repeat
+Using pip, install the packages listed under prerequisites above.
 
 ```
-until finished
+pip install...
+```
+
+Clone my forked modified version of the object detection API linked below.
+
+```
+Tensorflow Object Detection API(v1.13.0): https://github.com/apschuster/models/tree/r1.13.0
+```
+
+Navigate to the models\research directory and run the commands shown below.
+
+```
+python setup.py build
+python setup.py install
 ```
 
 End with an example of getting some data out of the system or using it for a little demo
