@@ -88,16 +88,24 @@ If you wish to test other images, try some of the other ones within the models\r
 
 
 ## Maintenance Information (Training new models..)
+
 Included in this section is a guide to train your own parking lot detection system. This could be if you want to change the model for a variety of reasons: new camera angle, additional class labels to recognize, or a completely different parking lot (which would apply to a group in the future that wants to train a model specific to the Marksbury Parking Lot).
 
-Compile a list of parking lot pictures that you want to train the new model on (try to make sure they are consistent on their angle).
-Place 70%-80% of these pictures in the train directory, and 20%-30% of these pictures in the test directory- paths are shown below (remove current pictures/xml files in both directories).
-
+Compile a list of parking lot pictures that you want to train the new model on (try to make sure they are consistent on their angle, ideally all the same). Place 70%-80% of these pictures in the train directory, and 20%-30% of these pictures in the test directory- paths are shown below (remove current pictures/xml files in both directories).
 
 ```
 models\research\images\train\
 models\research\images\test\
 ```
+
+The next step is to label the images. Download the software 'LabelImg' linked below for your appropriate system. You could also use a different labeling software, the goal is to use a software that can capture labels from images and save those as XML files.
+
+```
+https://tzutalin.github.io/labelImg/
+```
+
+Launch 'LabelImg'. Bring up the pictures within the train/test directory mentioned above and label the parking lot spaces that are occupied as "occupied". A picture of what this should look like is shown below. Do this for all the images in both directories. 
+
 
 
 ## Built With
