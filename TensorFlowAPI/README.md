@@ -90,6 +90,16 @@ If you wish to test other images, try some of the other ones within the models\r
 ## Maintenance Information (Training new models..)
 Included in this section is a guide to train your own parking lot detection system. This could be if you want to change the model for a variety of reasons: new camera angle, additional class labels to recognize, or a completely different parking lot (which would apply to a group in the future that wants to train a model specific to the Marksbury Parking Lot).
 
+Compile a list of parking lot pictures that you want to train the new model on (try to make sure they are consistent on their angle).
+Place 70%-80% of these pictures in the train directory, and 20%-30% of these pictures in the test directory- paths are shown below (remove current pictures/xml files in both directories).
+
+
+```
+models\research\images\train\
+models\research\images\test\
+```
+
+
 ## Built With
 
 * [Tensorflow (v1.15.0)](https://www.tensorflow.org/versions/r1.15/api_docs/python/tf) - ML Library used
