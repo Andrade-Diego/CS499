@@ -74,6 +74,8 @@ python detect_occupied_spaces.py
 
 This script references the image with the path on line 70, and proceeds to make predictions on all 48 of the parking lot spaces. The script takes about 1-2 minutes to run, and the outputs are the image and how many spaces are occupied/empty. The image has red rectangles around occupied spaces, and green rectangles around open spaces.
 
+If you wish to test other images, try some of the other ones within the models\research\object_detection\test_images\ directory (with the same camera angle), or download the dataset "CNR-EXT_FULL_IMAGE_1000x750.tar" at http://cnrpark.it/ and use pictures from camera 6.
+
 
 ## Maintenance Information (Training new models..)
 
