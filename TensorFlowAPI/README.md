@@ -108,7 +108,7 @@ Launch 'LabelImg'. Bring up the pictures within the train/test directory mention
 
 ![alt text](trainingExample.JPG "Labeling")
 
-* With the current structure, the program is built using one class label (i.e. occupied). If you wish to add another class label, such as empty (for an empty parking space), a lot of other programs would have to be changed- this is not recommended for the current structure.
+* With the current structure, the program is built using one class label (i.e. occupied). If you wish to add another class label to be detected, such as empty (for an empty parking space), a lot of other programs would have to be changed- this is not recommended for the current structure.
 
 
 ## Built With
