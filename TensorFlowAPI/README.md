@@ -37,7 +37,8 @@ pip install opencv-python
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
+A step by step series of examples that tell you how to get a development env running.
+
 
 If not already installed, install python 3 (3.7.4) and pip (19.0.0 or newer) on your system, links/instructions are provided below.
 ```
@@ -64,7 +65,13 @@ python setup.py build
 python setup.py install
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+Direct yourself to the models\research\object_detection directory. Look for the 'detect_occupied_spaces.py', run this in either your own text editor, or from the command shown below.
+
+```
+python detect_occupied_spaces.py
+```
+
+This script references the image with the path on line 70, and proceeds to make predictions on all 48 of the parking lot spaces. The script takes about 1-2 minutes to run, and the outputs are the image and how many spaces are occupied/empty. The image has red rectangles around occupied spaces, and green rectangles around open spaces.
 
 
 ## Maintenance Information (Training new models..)
