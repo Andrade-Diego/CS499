@@ -9,9 +9,12 @@ Since the tensorflow API is too large to properly push to this directory, I have
 ## Getting Started
 
 Loose Instructions: https://www.geeksforgeeks.org/ml-training-image-classifier-using-tensorflow-object-detection-api/
-* These are loose instructions that my own instructions will be slightly based on. Please only refer to these if my instructions are unclear at any point
+* These are loose instructions that my own instructions will be slightly based on. They are only meant to give a reference point to how I initially setup/trained my system- DO NOT follow these instructions.
 
 The instructions below will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+### System Requirements
+* Windows 10, 64 bit
 
 ### Prerequisites
 
@@ -63,6 +66,8 @@ python setup.py install
 
 End with an example of getting some data out of the system or using it for a little demo
 
+
+## Maintenance Information (Training new models..)
 
 ## Deployment
 
