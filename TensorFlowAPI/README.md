@@ -88,10 +88,7 @@ If you wish to test other images, try some of the other ones within the models\r
 
 
 ## Maintenance Information (Training new models..)
-
-## Deployment
-
-Will add when relevant.
+Included in this section is a guide to train your own parking lot detection system. This could be if you want to change the model for a variety of reasons: new camera angle, additional class labels to recognize, or a completely different parking lot (which would apply to a group in the future that wants to train a model specific to the Marksbury Parking Lot).
 
 ## Built With
 
@@ -103,7 +100,6 @@ Will add when relevant.
 
 * **Alex Schuster** - [apschuster](https://github.com/apschuster)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## Acknowledgments
 
