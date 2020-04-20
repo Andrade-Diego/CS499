@@ -111,6 +111,29 @@ Launch 'LabelImg'. Bring up the pictures within the train/test directory mention
 * With the current structure, the program is built using one class label (i.e. occupied). If you wish to add another class label to be detected, such as empty (for an empty parking space), a lot of other programs would have to be changed- this is not recommended for the current structure.
 
 
+Once all of the parking spaces are labeled, navigate to models\research\object_detection\ and run the xml_to_csv.py script. This will convert all of the XML files from the train & test directory into .csv files in the directory above it.
+
+```
+python xml_to_csv.py
+```
+* if this does not work, look at the xml_to_csv.py file and modify the paths so they match your system.
+
+Now, go to the models\research directory, and execute the commands below. These commands will generate .record files in the object detection directory, these are needed for the model detection training.
+
+```
+python object_detection\generate_tfrecord.py --csv_input=images\train_labels.csv --image_dir=images\train --output_path=object_detection\train.record
+
+python object_detection\generate_tfrecord.py --csv_input=images\test_labels.csv --image_dir=images\test --output_path=object_detection\test.record
+```
+
+Now it is time to start the training process, make sure you are in the models\research\object_detection directory. From here, execute the command shown below.
+
+```
+python train.py --logtostderr --train_dir=training/ --pipeline_config_path=training/faster_rcnn_inception_v2_coco.config
+```
+* This will start the training. It takes a minute or so for it to initialize. Once it does you will see steps incrementing with their associated loss values in the terminal. A good rule of thumb is not stop the training until it is consistently reading loss values below 1.0, but I tried to have mine between 0.1-0.5 before I stopped- this usually meant a step value of 10,000 or more.
+* You can also visually observe this training by launching tensorboard in another terminal.
+
 ## Built With
 
 * [Tensorflow (v1.15.0)](https://www.tensorflow.org/versions/r1.15/api_docs/python/tf) - ML Library used
