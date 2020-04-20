@@ -36,6 +36,7 @@ pip install opencv-python
 ```
 
 ### Installing
+Due to the many changes made to the forked object detection repository linked here, a lot of the necessary steps to prepare this specific object detection environment are not required and thus, not mentioned. If you are curious about some of these steps, reference the "Loose Instructions:" shown above.
 
 A step by step series of examples that tell you how to get a development env running.
 
