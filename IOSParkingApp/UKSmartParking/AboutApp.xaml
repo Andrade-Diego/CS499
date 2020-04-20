@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="UKSmartParking.AboutApp">
+    <ContentPage.Content >
+        <StackLayout BackgroundColor="White"
+                     Padding="30"
+                     Spacing="100">
+            <Label Text="UK Smart parking"
+                   FontAttributes="Bold"
+                   FontSize="40"
+                   VerticalOptions="Start"
+                   HorizontalOptions="Center"
+                   TextColor="blue"/>
+            <Label Text="This app was built to detect and inform professsors and staff members in the CS department about the available parking lot space in Marksberry parking lot."
+                   FontAttributes="None"
+                   FontSize="20"/>
+            <Image Source="120x120University-of-Kentucky Logo copy.png"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

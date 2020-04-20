@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="UKSmartParking.QuestionPage">
+    <ContentPage.Content>
+
+
+        <StackLayout>  
+            <StackLayout HorizontalOptions="Center" VerticalOptions="Start">  
+                <Image Margin="0,0,0,10" x:Name="imgXamarinEssential" Source="icons8-menu-128.png" ></Image>  
+                <Label Margin="0,0,0,10" FontAttributes="Bold" FontSize="Large" TextColor="#CA6F1E" HorizontalTextAlignment="Center" Text="Mail"></Label>  
+                <Entry x:Name="txtTo" Placeholder="someone@example.com"> </Entry>  
+                <Entry x:Name="txtSubject" Placeholder="Subject"> </Entry>  
+                <Editor x:Name="txtBody" HeightRequest="50" > </Editor>  
+                <Button x:Name="btnSend" Text="Send Mail"/>  
+        </StackLayout>  
+    </StackLayout>
+
+
+    </ContentPage.Content>
+</ContentPage>

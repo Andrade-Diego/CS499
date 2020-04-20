@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{B0ADFBE5-8892-48A4-94E0-BF8AE19F1E4B}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="UKSmartParking.iOS" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.UKSmartParking.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.330A3564-AA93-4087-923A-2B2A5170527A" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

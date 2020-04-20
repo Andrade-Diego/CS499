@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UKSmartParking.Rules">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="White"
+                     Padding="100"
+                     Spacing="40">
+            <Button Text="About the app"
+                    Clicked="About_App"/>
+            <Button Text="Campus Map"
+                    Clicked="Campus_Map"/>
+            <Button Text="Parking and Permit Regulations"
+                    Clicked="Parking_Regulation"/>
+            <Button Text="Question!"/>
+            <Image Source="120x120University-of-Kentucky Logo copy.png"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
