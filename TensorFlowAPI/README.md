@@ -106,8 +106,9 @@ https://tzutalin.github.io/labelImg/
 
 Launch 'LabelImg'. Bring up the pictures within the train/test directory mentioned above and label the parking lot spaces that are occupied as "occupied". A picture of what this should look like is shown below. Do this for all the images in both directories. 
 
-![alt text](trainingExample.jpg "Labeling")
+![alt text](trainingExample.JPG "Labeling")
 
+* With the current structure, the program is built using one class label (i.e. occupied). If you wish to add another class label, such as empty (for an empty parking space), a lot of other programs would have to be changed- this is not recommended for the current structure.
 
 
 ## Built With
