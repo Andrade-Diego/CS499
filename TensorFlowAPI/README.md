@@ -1,4 +1,5 @@
 # TensorFlow API- Detecting Parking Lot Spaces Occupied/Empty
+This README include directions on how to setup a working version of the tensorflow API for our specific parking lot detection project
 
 Since the tensorflow API is too large to properly push to this directory, I have forked my modifications to the repository shown below.
 * [Tensorflow Object Detection API(v1.13.0)](https://github.com/apschuster/models/tree/r1.13.0) - Object Detection API
@@ -8,9 +9,13 @@ Since the tensorflow API is too large to properly push to this directory, I have
 ## Getting Started
 
 Loose Instructions: https://www.geeksforgeeks.org/ml-training-image-classifier-using-tensorflow-object-detection-api/
-* These are loose instructions that my own instructions will be slightly based on. Please only refer to these if my instructions are unclear at any point
+* These are loose instructions that my own instructions will be slightly based on. They are only meant to give a reference point to how I initially setup/trained my system- DO NOT follow these instructions.
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+The instructions below will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+### System Requirements
+* Windows 10, 64 bit
+* Can work on Mac/Linux, but must change hard coded paths to use '/' instead of '\\' that it is currently using.
 
 ### Prerequisites
 
@@ -32,8 +37,11 @@ pip install opencv-python
 ```
 
 ### Installing
+Due to the many changes made to the forked object detection repository linked here, a lot of the necessary steps to prepare this specific object detection environment are not required and thus, not mentioned. If you are curious about some of these steps, reference the "Loose Instructions:" shown above.
 
-A step by step series of examples that tell you how to get a development env running
+
+
+A step by step series of examples that tell you how to get a development env running.
 
 If not already installed, install python 3 (3.7.4) and pip (19.0.0 or newer) on your system, links/instructions are provided below.
 ```
@@ -41,14 +49,37 @@ https://www.python.org/downloads/release/python-374/
 https://pip.pypa.io/en/stable/installing/
 ```
 
-And repeat
+Using pip, install the packages listed under prerequisites above.
 
 ```
-until finished
+pip install...
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+Clone my forked modified version of the object detection API linked below.
 
+```
+Tensorflow Object Detection API(v1.13.0): https://github.com/apschuster/models/tree/r1.13.0
+```
+
+Navigate to the models\research directory and run the commands shown below.
+
+```
+python setup.py build
+python setup.py install
+```
+
+Direct yourself to the models\research\object_detection directory. Look for the 'detect_occupied_spaces.py', run this in either your own text editor, or from the command shown below.
+
+```
+python detect_occupied_spaces.py
+```
+
+This script references the image with the path on line 70, and proceeds to make predictions on all 48 of the parking lot spaces. The script takes about 1-2 minutes to run, and the outputs are the image and how many spaces are occupied/empty. The image has red rectangles around occupied spaces, and green rectangles around open spaces.
+
+If you wish to test other images, try some of the other ones within the models\research\object_detection\test_images\ directory (with the same camera angle), or download the dataset "CNR-EXT_FULL_IMAGE_1000x750.tar" at http://cnrpark.it/ and use pictures from camera 6.
+
+
+## Maintenance Information (Training new models..)
 
 ## Deployment
 
