@@ -14,7 +14,7 @@ These instructions will get you a copy of the project up and running on your loc
 What things you need to install the software
 
 ```
-- Internet connection
+- Good internet connection to make the download faster
 - Should have at least 15Gb free space on your machine
 
 ```
@@ -36,9 +36,9 @@ After running xamarin visual studio
 End with an example of getting some data out of the system or using it for a little demo
 
 ## Maintenance Information
-
+```
 You can add more features and get a better design on the application according to the users need.
-
+```
 
 ## Built With
 
