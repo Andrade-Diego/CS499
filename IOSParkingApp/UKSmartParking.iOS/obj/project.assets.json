@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     "Xamarin.iOS,Version=v1.0": {
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.5.2": {
         "type": "package",
         "frameworkAssemblies": [
@@ -142,6 +151,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Newtonsoft.Json": "12.0.3",
           "Xamarin.Essentials": "1.3.1",
           "Xamarin.Forms": "4.4.0.991265"
         },
@@ -154,6 +164,15 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.5.2": {
         "type": "package",
         "frameworkAssemblies": [
@@ -294,6 +313,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Newtonsoft.Json": "12.0.3",
           "Xamarin.Essentials": "1.3.1",
           "Xamarin.Forms": "4.4.0.991265"
         },
@@ -306,6 +326,15 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x64": {
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.5.2": {
         "type": "package",
         "frameworkAssemblies": [
@@ -446,6 +475,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Newtonsoft.Json": "12.0.3",
           "Xamarin.Essentials": "1.3.1",
           "Xamarin.Forms": "4.4.0.991265"
         },
@@ -458,6 +488,15 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.5.2": {
         "type": "package",
         "frameworkAssemblies": [
@@ -598,6 +637,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Newtonsoft.Json": "12.0.3",
           "Xamarin.Essentials": "1.3.1",
           "Xamarin.Forms": "4.4.0.991265"
         },
@@ -611,6 +651,37 @@
     }
   },
   "libraries": {
+    "Newtonsoft.Json/12.0.3": {
+      "sha512": "6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "type": "package",
+      "path": "newtonsoft.json/12.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
     "Xamarin.Essentials/1.5.2": {
       "sha512": "qHxkrkx5jIC0X/qWhxCPZ3MuuOJm8bfCzAoUtlpOBSE4oV0JhrkTezK0A+IV+k/MeJ3zKc8FexaIXah9rlCTIw==",
       "type": "package",
@@ -917,26 +988,27 @@
   },
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
+      "Newtonsoft.Json >= 12.0.3",
       "UKSmartParking >= 1.0.0",
       "Xamarin.Essentials >= 1.5.2",
       "Xamarin.Forms >= 4.4.0.991265"
     ]
   },
   "packageFolders": {
-    "/Users/guerschomkayembe/.nuget/packages/": {}
+    "/Users/diego/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/guerschomkayembe/Projects/UKSmartParking/UKSmartParking.iOS/UKSmartParking.iOS.csproj",
+      "projectUniqueName": "/Users/diego/Documents/GitHub/CS499/IOSParkingApp/UKSmartParking.iOS/UKSmartParking.iOS.csproj",
       "projectName": "UKSmartParking.iOS",
-      "projectPath": "/Users/guerschomkayembe/Projects/UKSmartParking/UKSmartParking.iOS/UKSmartParking.iOS.csproj",
-      "packagesPath": "/Users/guerschomkayembe/.nuget/packages/",
-      "outputPath": "/Users/guerschomkayembe/Projects/UKSmartParking/UKSmartParking.iOS/obj/",
+      "projectPath": "/Users/diego/Documents/GitHub/CS499/IOSParkingApp/UKSmartParking.iOS/UKSmartParking.iOS.csproj",
+      "packagesPath": "/Users/diego/.nuget/packages/",
+      "outputPath": "/Users/diego/Documents/GitHub/CS499/IOSParkingApp/UKSmartParking.iOS/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "/Users/guerschomkayembe/.config/NuGet/NuGet.Config"
+        "/Users/diego/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "xamarinios10"
@@ -947,8 +1019,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "/Users/guerschomkayembe/Projects/UKSmartParking/UKSmartParking/UKSmartParking.csproj": {
-              "projectPath": "/Users/guerschomkayembe/Projects/UKSmartParking/UKSmartParking/UKSmartParking.csproj"
+            "/Users/diego/Documents/GitHub/CS499/IOSParkingApp/UKSmartParking/UKSmartParking.csproj": {
+              "projectPath": "/Users/diego/Documents/GitHub/CS499/IOSParkingApp/UKSmartParking/UKSmartParking.csproj"
             }
           }
         }
@@ -957,6 +1029,10 @@
     "frameworks": {
       "xamarinios10": {
         "dependencies": {
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[12.0.3, )"
+          },
           "Xamarin.Essentials": {
             "target": "Package",
             "version": "[1.5.2, )"

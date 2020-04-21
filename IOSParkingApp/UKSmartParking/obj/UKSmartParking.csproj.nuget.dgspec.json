@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/guerschomkayembe/Projects/UKSmartParking/UKSmartParking/UKSmartParking.csproj": {}
+    "/Users/diego/Documents/GitHub/CS499/IOSParkingApp/UKSmartParking/UKSmartParking.csproj": {}
   },
   "projects": {
-    "/Users/guerschomkayembe/Projects/UKSmartParking/UKSmartParking/UKSmartParking.csproj": {
+    "/Users/diego/Documents/GitHub/CS499/IOSParkingApp/UKSmartParking/UKSmartParking.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/guerschomkayembe/Projects/UKSmartParking/UKSmartParking/UKSmartParking.csproj",
+        "projectUniqueName": "/Users/diego/Documents/GitHub/CS499/IOSParkingApp/UKSmartParking/UKSmartParking.csproj",
         "projectName": "UKSmartParking",
-        "projectPath": "/Users/guerschomkayembe/Projects/UKSmartParking/UKSmartParking/UKSmartParking.csproj",
-        "packagesPath": "/Users/guerschomkayembe/.nuget/packages/",
-        "outputPath": "/Users/guerschomkayembe/Projects/UKSmartParking/UKSmartParking/obj/",
+        "projectPath": "/Users/diego/Documents/GitHub/CS499/IOSParkingApp/UKSmartParking/UKSmartParking.csproj",
+        "packagesPath": "/Users/diego/.nuget/packages/",
+        "outputPath": "/Users/diego/Documents/GitHub/CS499/IOSParkingApp/UKSmartParking/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/guerschomkayembe/.config/NuGet/NuGet.Config"
+          "/Users/diego/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -41,6 +41,10 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",

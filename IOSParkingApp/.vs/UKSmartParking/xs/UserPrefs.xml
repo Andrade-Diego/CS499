@@ -1,0 +1,52 @@
+﻿<Properties StartupConfiguration="{B0ADFBE5-8892-48A4-94E0-BF8AE19F1E4B}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="UKSmartParking/StackPage.xaml.cs">
+    <Files>
+      <File FileName="UKSmartParking/obj/Debug/netstandard2.0/MainPage.xaml.g.cs" Line="25" Column="1" />
+      <File FileName="UKSmartParking/CampusMap.xaml.cs" />
+      <File FileName="UKSmartParking/MainPage.xaml.cs" />
+      <File FileName="UKSmartParking/StackPage.xaml" />
+      <File FileName="UKSmartParking/StackPage.xaml.cs" Line="4" Column="9" />
+      <File FileName="UKSmartParking.iOS/Main.cs" Line="17" Column="1" />
+      <File FileName="UKSmartParking/Rules.xaml.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="UKSmartParking" expanded="True">
+            <Node name="UKSmartParking" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="AboutApp.xaml" expanded="True" />
+              <Node name="App.xaml" expanded="True" />
+              <Node name="CampusMap.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+              <Node name="Rules.xaml" expanded="True" />
+              <Node name="StackPage.xaml" expanded="True">
+                <Node name="StackPage.xaml.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="UKSmartParking.iOS" expanded="True">
+              <Node name="Resources" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.UKSmartParking.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.875C6027-759F-4012-A942-F6C188A770A3" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/diego/Documents/GitHub/CS499/IOSParkingApp/UKSmartParking/StackPage.xaml.cs" relfile="UKSmartParking/StackPage.xaml.cs" line="45" column="1" />
+      <Breakpoint file="/Users/diego/Documents/GitHub/CS499/IOSParkingApp/UKSmartParking/StackPage.xaml.cs" relfile="UKSmartParking/StackPage.xaml.cs" line="45" column="1" />
+      <Breakpoint file="/Users/diego/Documents/GitHub/CS499/IOSParkingApp/UKSmartParking/StackPage.xaml.cs" relfile="UKSmartParking/StackPage.xaml.cs" line="43" column="1" />
+      <Breakpoint file="/Users/diego/Documents/GitHub/CS499/IOSParkingApp/UKSmartParking/StackPage.xaml.cs" relfile="UKSmartParking/StackPage.xaml.cs" line="47" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
