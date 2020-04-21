@@ -6,7 +6,7 @@
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 
-```
+
 
 ### Installing
 
@@ -22,7 +22,11 @@ A step by step series of examples that tell you how to get a development env run
 ```
 
 
-End with an example of getting some data out of the system or using it for a little demo
+### Run
+
+```
+python rpi.py
+```
 
 ## Maintenance Information
 ```
