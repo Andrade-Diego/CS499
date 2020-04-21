@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".ui.home.HomeFragment">
 
+
     <TextView
         android:id="@+id/text_home"
         android:layout_width="match_parent"
@@ -14,41 +15,45 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:textAlignment="center"
+        android:textColor="#8BC34A"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="421dp"
-        android:layout_height="586dp"
-        android:layout_marginBottom="62dp"
-        android:scaleType="fitXY"
-        android:src="@mipmap/parking"
-        app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.919" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="414dp"
+        android:layout_height="505dp"
+        android:layout_marginBottom="62dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/parking2"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
     <ImageButton
         android:id="@+id/button"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="41dp"
+        android:layout_height="42dp"
         android:layout_marginStart="162dp"
         android:layout_marginEnd="162dp"
-        android:layout_marginBottom="64dp"
+        android:layout_marginBottom="92dp"
         android:background="?android:attr/windowBackground"
         android:scaleType="fitXY"
         android:src="@drawable/refresh"
         android:text="refresh"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.47"
         app:layout_constraintStart_toStartOf="parent" />
+
+
+
+
 </android.support.constraint.ConstraintLayout>

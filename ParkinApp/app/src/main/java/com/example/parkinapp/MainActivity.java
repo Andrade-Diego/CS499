@@ -2,10 +2,12 @@ package com.example.parkinapp;
 
 import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
+import android.os.StrictMode;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
@@ -28,6 +30,8 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
         NavigationUI.setupWithNavController(navView, navController);
 
+        StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
+        StrictMode.setThreadPolicy(policy);
 
     }
 
