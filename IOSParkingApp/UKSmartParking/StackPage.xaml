@@ -38,12 +38,19 @@
                     VerticalOptions="End"
                     />
                 <StackLayout Padding="0, 0, 0, 0">  
-                    <ScrollView>  
+                    
                         <WebView x:Name="Browser"
                             VerticalOptions="Center"
                             HeightRequest="800"/>  
+                     
+                </StackLayout>
+                <StackLayout Padding="0, 0, 0, 0">  
+                    <ScrollView>  
+                        <WebView x:Name="textOut"
+                            VerticalOptions="Center"
+                            HeightRequest="200"/>  
                     </ScrollView>  
-                </StackLayout>  
+                </StackLayout>
         </StackLayout>
 
     </ContentPage.Content>
