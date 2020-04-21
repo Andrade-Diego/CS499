@@ -68,6 +68,23 @@ python setup.py build
 python setup.py install
 ```
 
+Make sure to change the paths to your system relevant paths for the files/lines listed below. Only change the paths leading up to models\\.., the rest should be correct with your cloned path from the repository (do watch out for differences in '\\' vs '/' for mac & linux users)
+
+```
+models\research\object_detection\detect_occupied_spaces.py
+  - line 28
+  - line 42
+  - line 46
+  - line 70
+models\research\object_detection\training\faster_rcnn_inception_v2_coco.config
+  - line 107
+  - line 122
+  - line 124
+  - line 136
+  - line 138
+
+```
+
 Direct yourself to the models\research\object_detection directory. Look for the 'detect_occupied_spaces.py', run this in either your own text editor, or from the command shown below.
 
 ```
