@@ -38,6 +38,30 @@ End with an example of getting some data out of the system or using it for a lit
 ## Maintenance Information
 ```
 You can add more features and get a better design on the application according to the users need.
+
+Maintenance and Understanding of the UKSmartParking.Xamarin
+
+Stackpage.xaml/StackPage.xaml.cs
+ Main page of the app (Design and code)
+    -Toolbar
+    -Option buttom
+    -Refresh button
+    -Picture
+Rules.xaml/Rules.xaml.cs
+    Option page (mainly has four buttoms)
+       -About the page 
+       -Campus map
+       -Parking regulation
+       -Question
+AboutApp.xaml/About.xaml.cs
+     Short description of the app.
+CampusMap.xaml/CampusMap.xaml.cs
+     click buttom of the top of the page to show the web page of the university of Kentucky Map.
+     the user can navigate to the page has he/she was on an actual webpage.
+ParkingRegulations.xaml/ParkingRegulations.xaml.cs
+     click buttom on the top of the page to take the user to the university of kentucky parking and permit regulations provided by the university of kentucky transportation service website
+Question
+      .
 ```
 
 ## Built With
