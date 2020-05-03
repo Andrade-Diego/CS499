@@ -31,26 +31,21 @@
 
         <StackLayout>
             <Button Text="REFRESH"
-                    Clicked="Refresh_buttom"
+                    Clicked="Refresh_button"
                     BackgroundColor="#1dabf0"
                     TextColor="White"
                     FontSize="15"
                     VerticalOptions="End"
                     />
-                <StackLayout Padding="0, 0, 0, 0">  
                     
-                        <WebView x:Name="Browser"
-                            VerticalOptions="Center"
-                            HeightRequest="800"/>  
-                     
-                </StackLayout>
-                <StackLayout Padding="0, 0, 0, 0">  
-                    <ScrollView>  
-                        <WebView x:Name="textOut"
-                            VerticalOptions="Center"
-                            HeightRequest="200"/>  
-                    </ScrollView>  
-                </StackLayout>
+                <WebView x:Name="Browser"
+                    VerticalOptions="Center"
+                    HeightRequest="800"
+                />     
+                <WebView x:Name="textOut"
+                    VerticalOptions="Center"
+                    HeightRequest="200"
+                />  
         </StackLayout>
 
     </ContentPage.Content>

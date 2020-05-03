@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading.Tasks;
 using System.Collections.Generic;
 using System.Net.Http;
 using Newtonsoft.Json;
@@ -8,6 +9,8 @@ namespace UKSmartParking
 {
     public partial class StackPage : ContentPage
     {
+   
+
         private class ServerResponse
         {
             public string picture_uri { get; set; }
@@ -25,20 +28,22 @@ namespace UKSmartParking
 
         }
 
-        private void Refresh_buttom(object sender, EventArgs e)
+        private void Refresh_button(object sender, EventArgs e)
         {
             string runPHP = "http://127.0.0.1:8080/server.php";
             string resultContent = "";
             ServerResponse response = new ServerResponse();
-            //var pic = "http://127.0.0.1:8080/EditedPicture/foo.JPG";
-            //ar text = "http://127.0.0.1:8080/EditedPicture/output.txt";
 
-            HttpClient client = new HttpClient();           
+            HttpClient client = new HttpClient();
             var result = client.GetAsync(runPHP).Result;
             if(result.IsSuccessStatusCode == true)
             {
                 var responseContent = result.Content;
                 resultContent = responseContent.ReadAsStringAsync().Result;
+            }
+            else
+            {
+                return;
             }
             Console.WriteLine(result.Content.ToString());
 

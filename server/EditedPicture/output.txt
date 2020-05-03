@@ -1,1 +1,1 @@
-we can add stuff to the file
+Number of open spots: 26 Number of occupied spots: 22

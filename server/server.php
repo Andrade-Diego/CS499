@@ -5,16 +5,20 @@
 	}
 	if($_SERVER["REQUEST_METHOD"] == "GET")
 	{
-		$command = escapeshellcmd("/Users/diego/Documents/GitHub/CS499/server/server.py");
-		$output = shell_exec($command);
-		#echo $output;
-		if($output == True)
+
+		if(file_exists("./EditedPicture/output.jpg"))
 		{
 			$response = new CustomResponse();
+
+            #These URLS will change once the server opens to connections from outside localhost
 			$response->foo_txt_uri = "http://127.0.0.1:8080/EditedPicture/output.txt";
-			$response->picture_uri = "http://127.0.0.1:8080/EditedPicture/foo.png";
+			$response->picture_uri = "http://127.0.0.1:8080/EditedPicture/output.jpg";
 			$json = json_encode($response);
 			echo $json;
+		}
+		else
+		{
+			#could send error message here or send a default picture
 		}
 	}
 	else

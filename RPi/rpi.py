@@ -1,15 +1,16 @@
 #!/usr/bin/env python
 
-from time import sleep
+#from time import sleep
 import requests
-import base64
-import json
-from shutil import copyfile
 #from picamera import PiCamera
 
+
+#these will change when the code is no longer run locally on the server machine
 SERVER_IP = "http://127.0.0.1"
 SERVER_PORT = "8080"
 
+#software on rpi is not installed on my local machine so I had to comment this out
+#in order to run it, this should be the general idea for the code to put on the rpi
 '''
 def picFromRPI(pictureFile):
 	camera = PiCamera()
@@ -24,6 +25,8 @@ def picFromRPI(pictureFile):
 		url = SERVER_IP + ":" + SERVER_PORT + "/ParkingImage/foo.jpg"
 		response = requests.post(url, data = )
 '''
+
+#sort of dummy code, works to send a given picture
 #making sure we can update pictures since the rpi isn't set up
 def picFromFile(pictureFile):
 	url = SERVER_IP + ":" + SERVER_PORT + "/picPost.php"
@@ -38,4 +41,4 @@ def picFromFile(pictureFile):
 		return r.status_code
 
 if __name__ == "__main__":
-	picFromFile("./rpiPicture/foo.png")
+	picFromFile("./rpiPicture/input.jpg")
