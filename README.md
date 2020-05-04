@@ -11,3 +11,9 @@ Team F: Parking Lot Availability at Marksbury Lot
 
 ## TensorFlowAPI
 * Directory for the Tensorflow API, as well as instructions to set it up.
+
+## RPi
+* Directory for code to go on Raspberry Pi 
+
+## Server
+* Directory for code to go on Server with instructions
