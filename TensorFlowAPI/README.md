@@ -160,10 +160,3 @@ python train.py --logtostderr --train_dir=training/ --pipeline_config_path=train
 ## Authors
 
 * **Alex Schuster** - [apschuster](https://github.com/apschuster)
-
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
